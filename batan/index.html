@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" 
+    integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *
+        {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        .box1
+        {
+            border: 2px solid black;
+            display: inline-block;
+           padding: 10px 20px;
+           border-radius: 20px;
+           color: black;
+            
+        }
+        .box2
+        {
+            border: 2px solid black;
+            display: inline-block;
+           padding: 10px 20px;
+           border-radius: 20px;
+           color: black;
+          background-color: lightgray;
+        }
+        .box3
+        {
+            border: 2px solid black;
+            display: inline-block;
+           padding: 10px 20px;
+           border-radius: 20px;
+           color: black;
+           background:linear-gradient(white,aqua);
+           
+        }
+        .box4
+        {
+            border: 2px solid black;
+            display: inline-block;
+           padding: 10px 20px;
+           border-radius: 20px;
+           color: black;
+           background:radial-gradient(white,red);
+        }
+        .box2:hover
+        {
+            background-color: aqua;
+        }
+        .btn{
+            position: absolute;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="btn">
+       <a class="box1" href=""><i class="ri-user-fill"></i>login</a>
+       <a class="box2" href=""><i class="ri-user-fill"></i>sign in</a>
+       <a class="box3" href=""><i class="ri-user-fill"></i>home</a>
+       <a class="box4" href=""><i class="ri-user-fill"></i>prve</a>
+    </div>
+</body>
+</html>
